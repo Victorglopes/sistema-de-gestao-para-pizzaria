@@ -1,0 +1,73 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Pizzaria">
+        </div>
+        <button class="btn-pedido">Fazer Pedido</button>
+    </header>
+
+    <!-- Carrossel de Destaques -->
+    <section class="carousel">
+        <div class="carousel-item">
+            <img src="pizza1.jpg" alt="Promoção 1">
+            <div class="carousel-caption">Promoção da Semana: 2 pizzas grandes por R$ 80</div>
+        </div>
+        <div class="carousel-item">
+            <img src="pizza2.jpg" alt="Promoção 2">
+            <div class="carousel-caption">Promoção Especial: Pizza Calabresa por R$ 40</div>
+        </div>
+        <div class="carousel-item">
+            <img src="pizza3.jpg" alt="Promoção 3">
+            <div class="carousel-caption">Pizza de Frango com Catupiry - R$ 45</div>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories">
+        <button class="category-btn">Especiais</button>
+        <button class="category-btn">Tradicionais</button>
+        <button class="category-btn">Doces</button>
+    </section>
+
+    <!-- Cardápio -->
+    <section class="menu">
+        <div class="menu-item">
+            <img src="pizza1.jpg" alt="Pizza Margherita">
+            <h3>Pizza Margherita</h3>
+            <p>R$ 30</p>
+            <button class="add-btn">Adicionar</button>
+        </div>
+        <div class="menu-item">
+            <img src="pizza2.jpg" alt="Pizza Calabresa">
+            <h3>Pizza Calabresa</h3>
+            <p>R$ 35</p>
+            <button class="add-btn">Adicionar</button>
+        </div>
+        <div class="menu-item">
+            <img src="pizza3.jpg" alt="Pizza Frango com Catupiry">
+            <h3>Pizza Frango com Catupiry</h3>
+            <p>R$ 40</p>
+            <button class="add-btn">Adicionar</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Horário de Funcionamento: Segunda a Domingo - 10:00 às 22:00</p>
+        <p>Contato: (11) 1234-5678</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
